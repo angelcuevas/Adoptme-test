@@ -19,4 +19,6 @@ app.use('/api/pets',petsRouter);
 app.use('/api/adoptions',adoptionsRouter);
 app.use('/api/sessions',sessionsRouter);
 
+console.log("cosas")
+
 app.listen(PORT,()=>console.log(`Listening on ${PORT}`))
